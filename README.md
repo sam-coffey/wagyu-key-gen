@@ -11,7 +11,7 @@ Wagyu Key Gen is a GUI application providing functionality to the [staking-depos
 Prior to running Wagyu Key Gen a few dependencies need to be installed. 
 
 ### Ubuntu 20.04 and later
-Execute all those commands in your terminal to setup your dev environment.
+Execute all these commands in your terminal to setup your dev environment.
 
 ```console
 sudo apt install -y curl
@@ -37,7 +37,7 @@ yarn buildcli
 ### Ubuntu 18.04
 Even if Ubuntu 18.04 is somewhat old, it is a great OS to build our releases on for the Linux target because it has an older GLIBC which makes it more compatible. More details [here](https://pyinstaller.readthedocs.io/en/stable/usage.html#making-gnu-linux-apps-forward-compatible).
 
-Execute all those commands in your terminal to build a distribution for release.
+Execute all these commands in your terminal to build a distribution for release.
 ```console
 sudo apt update && sudo apt -y upgrade
 
@@ -92,7 +92,7 @@ yarn buildcliwin
 ```
 
 ### macOS 10.15.1 and later
-Execute all those commands in your terminal to setup your dev environment.  You may be prompted to install "command line developer tools" at some point and please do it.
+Execute all these commands in your terminal to setup your dev environment.  You may be prompted to install "command line developer tools" at some point and please do it.
 
 ```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
